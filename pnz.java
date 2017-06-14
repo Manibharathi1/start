@@ -14,9 +14,13 @@ else if(n>0)
 {
 System.out.println("negative");
 }
-if(n=0)
+else if(n=0)
 {
 System.out.println("zero");
 }
+  else
+  {
+    System.out.println("invalid input");
+  }
 }
 }
